@@ -22,8 +22,8 @@ class SimpleTransition extends Component {
     return <div className="container">
       <div className="row">
         <div className="col-12">
-          <h3 className="text-center">Transition Group</h3>
-          <p className="lead">This sample uses Transition to mount and unmount a component. After mounting the component is <strong>animated in</strong> by GSAP. Then the component is <strong>animated out</strong> and when the animation is complete, is unmounted.</p>
+          <h3 className="text-center">Transition</h3>
+          <p className="lead">This sample uses Transition to mount and unmount a component.</p>
           <hr />
         </div>
         <div className="col-12">
@@ -63,7 +63,7 @@ class SimpleTransition extends Component {
                   <span aria-hidden="true">&times;</span>
                 </button>
               </h5>
-              <p className="card-text">This entire element is mounted before the in animation starts and unmounted after the out animation is complete!!</p>
+              <p className="card-text">This entire panel is mounted before the in animation starts and unmounted</p>
             </div>
           </div>
         </Transition>

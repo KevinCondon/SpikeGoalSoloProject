@@ -1,6 +1,6 @@
 body,
 pre {
-	background-color: #333;
+	background-color: #2c2f33ff;
 	color: #fff;
 }
 
@@ -9,14 +9,14 @@ hr {
 }
 
 .gsap-btn {
-	background-color: #73b102;
+	background-color: #7289daff;
 	color: #fff;
 }
 
 .gsap-btn:hover,
 .gsap-btn:active,
 .gsap-btn:focus {
-	background-color: #88ce02;
+	background-color: rgb(78, 94, 151);
 }
 
 .card-container {
@@ -24,14 +24,24 @@ hr {
 	opacity: 0;
 	visibility: hidden;
 }
+/* .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	padding: 1.25rem;
+} */
 
 .transition-card {
 	transform: translateX(100px);
 	opacity: 0;
 	visibility: hidden;
-	background-color: #73b102;
+	background-color: #674ea7ff;
 	color: #fff;
 }
+
+.transition-card2 {
+	background-color: #674ea7ff;
+	color: #fff;
+} 
 
 .transition-card.simple {
 	transform: translateX(100px);
@@ -39,7 +49,7 @@ hr {
 	visibility: hidden;
 }
 
-.transition-card h4 {
+ .transition-card h4 {
 	margin: 10px 0;
 }
 
@@ -50,5 +60,5 @@ button.close {
 
 button.close:hover,
 button.close:focus {
-	color: #003b03;
+	color: #2c2f33ff;
 }
