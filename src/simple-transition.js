@@ -22,7 +22,7 @@ class SimpleTransition extends Component {
     return <div className="container">
       <div className="row">
         <div className="col-12">
-          <h3 className="text-center">Transition</h3>
+          <h3 className="text-center">Green Sock Transition</h3>
           <p className="lead">This sample uses Transition to mount and unmount a component.</p>
           <hr />
         </div>

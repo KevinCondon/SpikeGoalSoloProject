@@ -13,6 +13,7 @@ hr {
 	color: #fff;
 }
 
+
 .gsap-btn:hover,
 .gsap-btn:active,
 .gsap-btn:focus {
@@ -24,17 +25,17 @@ hr {
 	opacity: 0;
 	visibility: hidden;
 }
-/* .card-body {
+.card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 	padding: 1.25rem;
-} */
+}
 
 .transition-card {
 	transform: translateX(100px);
 	opacity: 0;
 	visibility: hidden;
-	background-color: #674ea7ff;
+	background-color: rgb(69, 53, 110);
 	color: #fff;
 }
 

@@ -96,7 +96,7 @@ class TransitionList extends Component {
 					/>
 				)}
 			</TransitionGroup>
-
+			
 		</div>;
 	}
 
